@@ -4,7 +4,7 @@ import SearchBox from './Search-Box'
 
 const Widgets = () => {
     return (
-        <div className='mt-2 px-2'>
+        <div className='col-span-2 mt-2 px-2 hidden lg:inline'>
             <SearchBox />
             <TwitterTimelineEmbed
                 sourceType="profile"
